@@ -1,4 +1,4 @@
-@media only screen and (min-width: 733px) and (max-width: 1244px) {
+@media only screen and (min-width: 758px) and (max-width: 1244px) {
     html {
         font-size: 20px;
         font-family: "Be Vietnam Pro", sans-serif;
@@ -31,6 +31,8 @@
     .box-title {
         width: 720px;
         height: 60px;
+        width: 95%;
+        max-width: 720px;
     }
     header .inner-header {
         display: flex;
@@ -41,10 +43,12 @@
     }
     .section:nth-of-type(1) .inner-section {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 95%;
         max-width: 720px;
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 30px;
     }
     .section:nth-of-type(2) .inner-section {
         display: flex;
@@ -67,7 +71,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         max-width: 720px;
-        width: 100%;
+        width: 95%;
     }
     .inner-item-2 {
         width: 220px;
@@ -75,13 +79,12 @@
     }
 
     .section:nth-of-type(4) .inner-section {
-       display: flex;
-        justify-content: flex-start;
-        gap: 30px;
-        flex-direction: row;
+        display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px; 
+        width: 95%;
         max-width: 720px;
-        width: 100%;
     }
     .inner-item-3 {
         width: 345px;
