@@ -1,114 +1,105 @@
-@media only screen and (max-width: 758px) { 
-    html {
-        font-size: 20px;
-        font-family: "Be Vietnam Pro", sans-serif;
-        font-weight: 700;
-        color: #333333;
-    }
-    
-    #logo {
-        width: 140px;
-        height: 42px;
-        order: 2;
-    }
-    #menu {
-        width: 66px;
-        height: 36px;
-        order: 1;
-    }
-    #button {
-        width: 78px;
-        height: 36px;
-        order: 3;
-    }
-
-    #content {
-        width: 546px;
-        height: 267px;
-    }
-    #image {
-        width: 546px;
-        height: 491px;
-    }
-
-    .box-title {
-        width: 546px;
-        height: 60px;
-        width: 95%;
-        max-width: 546px;
-    }
-    header .inner-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 95%;
-        max-width: 546px;
-    }
-    .section:nth-of-type(1) .inner-section {
-        display: flex;
-        max-width: 546px;
-        width: 95%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        row-gap: 10px;
-    }
-    .section:nth-of-type(2) .inner-section {
-        display: flex;
-        max-width: 546px;
-        width: 95%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        row-gap: 10px;
-    }
-    .inner-item-1 {
-        width: 546px;
-        height: 420px;
-    }
-
-    .inner-item-2 {
-        width: 258px;
-        height: 300px;
-    }
-
-    .section:nth-of-type(3) .inner-section,
-    .section:nth-of-type(4) .inner-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 10px; 
-        width: 95%;
-        max-width: 546px;
-    }
-
-    .inner-item-2,
-    .inner-item-3 {
-        flex: 1 1 calc(50% - 10px);
-        max-width: calc(50% - 10px);
-        height: 300px;
-    }
-    .inner-item-3 {
-        width: 258px;
-        height: 300px;
-    }
-
-    footer {
-        height: 72px;
-    }
-    footer .container.footer {
-        margin: 0 auto;
-    }
-    div {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+html {
+    color: #333333;
+    font-size: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    line-height: 100%;
 }
 
+body {
+    margin: 0;
+}
+
+.box {
+    background: #E2E2E2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.color {
+    background-color: #F1F1F1;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 0;
+    background: #fff;
+}
+.header .inner-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header .logo {
+    width: 200px;
+    height: 60px;
+}
+.header .menu {
+    height: 34px;
+    flex: 1;
+}
+.header .button {
+    height: 42px;
+    padding: 0 20px;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+    padding: 80px 0;
+}
+
+.section-1 .inner-section,
+.section-2 .inner-section,
+.section-3 .inner-section,
+.section-4 .inner-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.section-1 .content {
+    width: calc(50% - 15px);
+    height: 267px;
+}
+.section-1 .image {
+    width: calc(50% - 15px);
+    height: 520px;
+}
+
+.title {
+    width: 600px;
+    height: 80px;
+    font-family: "Lora", serif;
+    margin: 0 auto 40px;
+    display: flex;
+}
+
+.section-2 .item {
+    width: calc((100% - 60px) / 3);
+    height: 420px;
+}
+
+.section-3 .item {
+    width: calc((100% - 120px) / 5);
+    height: 300px;
+}
+
+.section-4 .item {
+    width: calc((100% - 90px) / 4);
+    height: 300px;
+}
+
+.footer {
+    width: 100%;
+    height: 72px;
+    border-radius: 0;
+}
