@@ -85,12 +85,6 @@
         max-width: 546px;
     }
 
-    .inner-item-2,
-    .inner-item-3 {
-        flex: 1 1 calc(50% - 10px);
-        max-width: calc(50% - 10px);
-        height: 300px;
-    }
     .inner-item-3 {
         width: 258px;
         height: 300px;
@@ -114,4 +108,5 @@
         height: auto;
     }
 }
+
 
